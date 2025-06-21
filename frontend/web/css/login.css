@@ -1,0 +1,56 @@
+.site-login, .site-signup, .site-reset-password, .resend-verification-page, .site-request-password-reset {
+    margin: auto auto;
+    background-color: #ffffff;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 420px;
+
+    h1 {
+        font-size: 2rem;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+    p {
+        text-align: center;
+        color: #6c757d;
+        margin-bottom: 30px;
+        font-size: 0.95rem;
+    }
+
+    .form-group .checkbox label {
+        font-weight: normal;
+        color: #555;
+    }
+    .my-1 a {
+        color: #007bff;
+        text-decoration: none;
+    }
+
+    .my-1 a:hover {
+        text-decoration: underline;
+    }
+
+    .btn-primary {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 6px;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-primary:hover {
+        background-color: #0056b3;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .site-login, .site-signup, .site-reset-password, .site-resend-verification-email, .site-request-password-reset {
+        padding: 20px;
+    }
+}

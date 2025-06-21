@@ -1,0 +1,8 @@
+.progress {
+    height: 1rem;
+    background-color: red;
+}
+
+.progress-bar {
+    transition: width 0.5s ease;
+}
